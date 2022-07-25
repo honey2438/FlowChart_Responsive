@@ -3,7 +3,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .flowchart{
-    height: 100%;
+     margin: 50px 0px;
+ width: 100%;
+    height: 690px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,25 +50,25 @@
     border-radius:50%;
 }
 #flow-btn1{
-    border:16px solid #15cfad;
+    border:14px solid #15cfad;
 }
 #flow-btn1:hover{
    border-color: #55ffe0;
 }
 #flow-btn2{
-    border:16px solid rgb(106, 19, 255);
+    border:14px solid rgb(106, 19, 255);
 }
 #flow-btn2:hover{
     border-color: rgb(160, 105, 255);
 }
 #flow-btn3{
-    border:16px solid grey;
+    border:14px solid grey;
 }
 #flow-btn3:hover{
     border-color: rgb(184, 184, 184);
 }
 #flow-btn4{
-    border:16px solid black;
+    border:14px solid black;
 }
 #flow-btn4:hover{
     border-color: rgb(59, 59, 59);
@@ -105,6 +107,10 @@
     border:0px solid white;
 }
 @media(max-width:1000px){
+    .flowchart{
+        height:635px;
+        margin:20px 0px;
+    }
     .secondary{
         font-size: 1.5rem;
     }
@@ -154,9 +160,12 @@
         font-size: 1.2rem;
     }
     .flow-btn{
-        height:100%;
-        width:135%;
+        height:83%;
+        width:57%;
         border-width:9px !important;
+    }
+    inner-flowchart{
+        width:100%;
     }
     .flow-innermost1{
         height: 5px;
